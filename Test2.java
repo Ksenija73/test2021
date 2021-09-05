@@ -24,7 +24,7 @@ public class Test2 {
         driver.findElement(By.cssSelector("div [jsname=WxTTNd]")).sendKeys( Keys.ENTER);
         driver.findElement(By.cssSelector("div [jsname=bkEvMb]")).sendKeys( Keys.ENTER);
         driver.findElement(By.cssSelector("div [jsname=Pt8tGc]")).sendKeys( Keys.ENTER);
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(4);
         driver.quit();
 
 
