@@ -23,7 +23,7 @@ public class Test3 {
         driver.findElement(By.cssSelector("div [jsname=aN1RFf]")).sendKeys( Keys.ENTER);
         driver.findElement(By.cssSelector("div [jsname=qCp9A]")).sendKeys( Keys.ENTER);
         driver.findElement(By.cssSelector("div [jsname=Pt8tGc]")).sendKeys( Keys.ENTER);
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(4);
         driver.quit();
 
 
